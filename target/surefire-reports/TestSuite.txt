@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 3, Errors: 0, Skipped: 13, Time elapsed: 14.879 s <<< FAILURE! - in TestSuite
+com.ecomm.tests.LoginPageTest.setup  Time elapsed: 7.755 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K092JRV', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0114C013+2474003]
+	Ordinal0 [0x010E29C1+2042305]
+	Ordinal0 [0x00FF2F68+1060712]
+	Ordinal0 [0x0100C626+1164838]
+	Ordinal0 [0x0100AA83+1157763]
+	Ordinal0 [0x0103A2A2+1352354]
+	Ordinal0 [0x01038FAA+1347498]
+	Ordinal0 [0x010366DB+1337051]
+	Ordinal0 [0x01013427+1192999]
+	Ordinal0 [0x010142EE+1196782]
+	Ordinal0 [0x01014279+1196665]
+	GetHandleVerifier [0x012D96FC+1590332]
+	GetHandleVerifier [0x01388614+2306900]
+	GetHandleVerifier [0x011D9E93+543699]
+	GetHandleVerifier [0x011D92CE+540686]
+	Ordinal0 [0x010E86BA+2066106]
+	Ordinal0 [0x010ED1C8+2085320]
+	Ordinal0 [0x010ED308+2085640]
+	Ordinal0 [0x010F67F3+2123763]
+	BaseThreadInitThunk [0x75AAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77007A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77007A6E+238]
+
+	at com.ecomm.tests.LoginPageTest.setup(LoginPageTest.java:18)
+
+com.ecomm.tests.HomePageTests.setup  Time elapsed: 8.404 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K092JRV', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0114C013+2474003]
+	Ordinal0 [0x010E29C1+2042305]
+	Ordinal0 [0x00FF2F68+1060712]
+	Ordinal0 [0x0100C626+1164838]
+	Ordinal0 [0x0100AA83+1157763]
+	Ordinal0 [0x0103A2A2+1352354]
+	Ordinal0 [0x01038FAA+1347498]
+	Ordinal0 [0x010366DB+1337051]
+	Ordinal0 [0x01013427+1192999]
+	Ordinal0 [0x010142EE+1196782]
+	Ordinal0 [0x01014279+1196665]
+	GetHandleVerifier [0x012D96FC+1590332]
+	GetHandleVerifier [0x01388614+2306900]
+	GetHandleVerifier [0x011D9E93+543699]
+	GetHandleVerifier [0x011D92CE+540686]
+	Ordinal0 [0x010E86BA+2066106]
+	Ordinal0 [0x010ED1C8+2085320]
+	Ordinal0 [0x010ED308+2085640]
+	Ordinal0 [0x010F67F3+2123763]
+	BaseThreadInitThunk [0x75AAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77007A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77007A6E+238]
+
+	at com.ecomm.tests.HomePageTests.setup(HomePageTests.java:21)
+
+com.ecomm.tests.MyAddressPageTest.setup  Time elapsed: 14.469 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K092JRV', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0114C013+2474003]
+	Ordinal0 [0x010E29C1+2042305]
+	Ordinal0 [0x00FF2F68+1060712]
+	Ordinal0 [0x0100C626+1164838]
+	Ordinal0 [0x0100AA83+1157763]
+	Ordinal0 [0x0103A2A2+1352354]
+	Ordinal0 [0x01038FAA+1347498]
+	Ordinal0 [0x010366DB+1337051]
+	Ordinal0 [0x01013427+1192999]
+	Ordinal0 [0x010142EE+1196782]
+	Ordinal0 [0x01014279+1196665]
+	GetHandleVerifier [0x012D96FC+1590332]
+	GetHandleVerifier [0x01388614+2306900]
+	GetHandleVerifier [0x011D9E93+543699]
+	GetHandleVerifier [0x011D92CE+540686]
+	Ordinal0 [0x010E86BA+2066106]
+	Ordinal0 [0x010ED1C8+2085320]
+	Ordinal0 [0x010ED308+2085640]
+	Ordinal0 [0x010F67F3+2123763]
+	BaseThreadInitThunk [0x75AAFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77007A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77007A6E+238]
+
+	at com.ecomm.tests.MyAddressPageTest.setup(MyAddressPageTest.java:38)
+

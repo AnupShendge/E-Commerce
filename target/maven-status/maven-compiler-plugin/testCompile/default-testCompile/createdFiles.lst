@@ -1,0 +1,11 @@
+com\ecomm\tests\LoginPageTest.class
+com\ecomm\utilities\ReadConfig.class
+com\ecomm\pages\LoginPage.class
+com\ecomm\pages\OrderHistoryPage.class
+com\ecomm\pages\MyAddressPage.class
+com\ecomm\pages\HomePage.class
+com\ecomm\pages\MyWishListsPage.class
+com\ecomm\pages\MyCreditSlipsPage.class
+com\ecomm\tests\HomePageTests.class
+com\ecomm\tests\BaseClass.class
+com\ecomm\tests\MyAddressPageTest.class
