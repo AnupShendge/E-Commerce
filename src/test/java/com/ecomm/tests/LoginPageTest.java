@@ -13,21 +13,21 @@ public class LoginPageTest extends BaseClass {
 	HomePage hp;
 	
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void setup() {
 		initialise();
 		lp = new LoginPage();
 		
 	}
 	
-	@Test(priority=1, description="Verify Login Test")
+	@Test(groups= {"smoke"}, priority=1, description="Verify Login Test")
 	
 	public void LoginTest() throws InterruptedException {
 		hp = lp.ClickLogin(username, password);
 		
 	}
 	
-	@Test(priority=2, dataProvider="getData", description="Verify login with invalid credentials")
+	@Test(groups= {"regression"}, priority=2, dataProvider="getData", description="Verify login with invalid credentials")
 	public void InvalidLoginTest(String email, String pwd) {
 		lp.InvalidLogin(email, pwd);
 		
@@ -45,7 +45,7 @@ public class LoginPageTest extends BaseClass {
 		
 		return data;
 	}
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void teardown() {
 		
 		driver.quit();

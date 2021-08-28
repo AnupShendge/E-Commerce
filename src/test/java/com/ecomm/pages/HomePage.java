@@ -1,5 +1,6 @@
 package com.ecomm.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -20,6 +21,9 @@ public class HomePage extends BaseClass {
 	@FindBy(xpath="//*[text()='My addresses']")
 	WebElement myAddress;
 	
+	@FindBy(xpath="(//*[@title='T-shirts'])[2]")
+	WebElement tShirts;
+	
 	
 	public HomePage() {
 		PageFactory.initElements(driver,this);
@@ -29,6 +33,10 @@ public class HomePage extends BaseClass {
 		return driver.getTitle();
 	}
 	
+	public TShirtsPage clickOnTShirts() {
+		tShirts.click();
+		return new TShirtsPage();
+	}
 	public MyAddressPage ClickOnMyAddress() {
 		myAddress.click();
 		return new MyAddressPage();

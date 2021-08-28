@@ -2,14 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [E-Commerce_Framework]">
   <test thread-count="5" name="E-Commerce Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.ecomm.tests.MyAddressPageTest">
+      <class name="com.ecomm.tests.LoginPageTest">
         <methods>
           <include name="setup"/>
-          <include name="VerifyAddNewAddress"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- com.ecomm.tests.MyAddressPageTest -->
+      </class> <!-- com.ecomm.tests.LoginPageTest -->
     </classes>
   </test> <!-- E-Commerce Test(failed) -->
 </suite> <!-- Failed suite [E-Commerce_Framework] -->

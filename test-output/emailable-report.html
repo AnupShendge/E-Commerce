@@ -9,52 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">E-Commerce_Framework</th></tr>
-<tr><td><a href="#t0">E-Commerce Test</a></td><td class="num">5</td><td class="num attn">1</td><td class="num">0</td><td class="num">463,294</td><td></td><td></td></tr>
+<tr><td><a href="#t0">E-Commerce Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">159,155</td><td>regression, smoke</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">E-Commerce_Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E-Commerce Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.ecomm.tests.MyAddressPageTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1626977026547</td><td rowspan="1">249300</td></tr><tr><th colspan="4">E-Commerce Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.ecomm.tests.MyAddressPageTest</td><td><a href="#m1">VerifyAddNewAddress</a></td><td rowspan="1">1626977275946</td><td rowspan="1">0</td></tr><tr><th colspan="4">E-Commerce Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ecomm.tests.HomePageTests</td><td><a href="#m2">HomePageTitleTest</a></td><td rowspan="1">1626976976811</td><td rowspan="1">91</td></tr><tr class="passedodd"><td rowspan="3">com.ecomm.tests.LoginPageTest</td><td><a href="#m3">InvalidLoginTest</a></td><td rowspan="2">1626977323527</td><td rowspan="2">4875</td></tr><tr class="passedodd"><td><a href="#m4">InvalidLoginTest</a></td></tr><tr class="passedodd"><td><a href="#m5">LoginTest</a></td><td rowspan="1">1626976896034</td><td rowspan="1">5773</td></tr><tr class="passedeven"><td rowspan="1">com.ecomm.tests.MyAddressPageTest</td><td><a href="#m6">VerifyAddNewAddress</a></td><td rowspan="1">1626977012094</td><td rowspan="1">14449</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">E-Commerce_Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E-Commerce Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.ecomm.tests.HomePageTests</td><td><a href="#m0">HomePageTitleTest</a></td><td rowspan="1">1630175447056</td><td rowspan="1">36</td></tr><tr class="passedeven"><td><a href="#m1">OrderHistory</a></td><td rowspan="1">1630175525817</td><td rowspan="1">2150</td></tr><tr class="passedodd"><td rowspan="3">com.ecomm.tests.LoginPageTest</td><td><a href="#m2">InvalidLoginTest</a></td><td rowspan="2">1630175497685</td><td rowspan="2">4070</td></tr><tr class="passedodd"><td><a href="#m3">InvalidLoginTest</a></td></tr><tr class="passedodd"><td><a href="#m4">LoginTest</a></td><td rowspan="1">1630175400713</td><td rowspan="1">8724</td></tr></tbody>
 </table>
-<h2>E-Commerce Test</h2><h3 id="m0">com.ecomm.tests.MyAddressPageTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=91.0.4472.164)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-K092JRV&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Anup\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 73484efeb15dc3eee72df720f3a7c3a6
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.ecomm.tests.BaseClass.initialise(BaseClass.java:26)
-	at com.ecomm.tests.MyAddressPageTest.setup(MyAddressPageTest.java:38)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.ecomm.tests.MyAddressPageTest#VerifyAddNewAddress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=91.0.4472.164)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-K092JRV&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Anup\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 73484efeb15dc3eee72df720f3a7c3a6
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.ecomm.tests.BaseClass.initialise(BaseClass.java:26)
-	at com.ecomm.tests.MyAddressPageTest.setup(MyAddressPageTest.java:38)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.ecomm.tests.HomePageTests#HomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.ecomm.tests.LoginPageTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>anup@gmail.com</td><td>Qwerty#4627</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.ecomm.tests.LoginPageTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shendgeanup@gmail.com</td><td>$%Qwerty</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.ecomm.tests.LoginPageTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.ecomm.tests.MyAddressPageTest#VerifyAddNewAddress</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>Sachin </td><td>Tendulkar</td><td>Brigade Road</td><td>Mumbai</td><td>12345</td><td>123456789</td><td>987654321</td><td>INDIA</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>E-Commerce Test</h2><h3 id="m0">com.ecomm.tests.HomePageTests#HomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ecomm.tests.HomePageTests#OrderHistory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ecomm.tests.LoginPageTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>anup@gmail.com</td><td>Qwerty#4627</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ecomm.tests.LoginPageTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>shendgeanup@gmail.com</td><td>$%Qwerty</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.ecomm.tests.LoginPageTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

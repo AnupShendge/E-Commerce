@@ -25,12 +25,13 @@ public class LoginPage extends BaseClass {
 	
 	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this); 
 	}
 		
 	
 	public HomePage ClickLogin(String email, String pwd) throws InterruptedException {
 		SignIn.click();
+		Thread.sleep(2000);
 		EmailAddress.sendKeys(email);
 		Password.sendKeys(pwd);
 		SubmitLogin.click();
