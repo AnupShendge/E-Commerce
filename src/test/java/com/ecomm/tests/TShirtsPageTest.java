@@ -12,7 +12,7 @@ public class TShirtsPageTest extends BaseClass {
 		HomePage hp;
 		TShirtsPage tp;
 		
-		 @BeforeMethod
+		 @BeforeMethod(alwaysRun=true)
 			public void setup() throws InterruptedException {
 				initialise();
 				lp = new LoginPage();

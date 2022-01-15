@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce_Framework">
+	<test name="E-Commerce Smoke Test Cases">
+
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+
+		<classes>
+
+			<class name="com.ecomm.tests.LoginPageTest" />
+
+			<class name="com.ecomm.tests.HomePageTests" />
+			
+			<class name="com.ecomm.tests.TShirtsPageTest"/>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

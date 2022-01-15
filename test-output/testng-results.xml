@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="E-Commerce_Framework" duration-ms="159155" started-at="2021-08-28T18:29:30Z" finished-at="2021-08-28T18:32:09Z">
+  <suite name="Default suite" duration-ms="44016" started-at="2021-09-15T07:30:41Z" finished-at="2021-09-15T07:31:25Z">
     <groups>
       <group name="regression">
-        <method signature="HomePageTests.OrderHistory()[pri:2, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="OrderHistory" class="com.ecomm.tests.HomePageTests"/>
-        <method signature="LoginPageTest.InvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="InvalidLoginTest" class="com.ecomm.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.InvalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="InvalidLoginTest" class="com.ecomm.tests.LoginPageTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="HomePageTests.HomePageTitleTest()[pri:1, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="HomePageTitleTest" class="com.ecomm.tests.HomePageTests"/>
-        <method signature="LoginPageTest.LoginTest()[pri:1, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="LoginTest" class="com.ecomm.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.LoginTest()[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="LoginTest" class="com.ecomm.tests.LoginPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="E-Commerce Test" duration-ms="159155" started-at="2021-08-28T18:29:30Z" finished-at="2021-08-28T18:32:09Z">
+    <test name="Default test" duration-ms="44016" started-at="2021-09-15T07:30:41Z" finished-at="2021-09-15T07:31:25Z">
       <class name="com.ecomm.tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="setup" is-config="true" duration-ms="30100" started-at="2021-08-28T18:29:30Z" finished-at="2021-08-28T18:30:00Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="setup" is-config="true" duration-ms="12010" started-at="2021-09-15T07:30:41Z" finished-at="2021-09-15T07:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="LoginTest" duration-ms="8724" started-at="2021-08-28T18:30:00Z" description="Verify Login Test" finished-at="2021-08-28T18:30:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="teardown" is-config="true" duration-ms="9139" started-at="2021-08-28T18:30:09Z" finished-at="2021-08-28T18:30:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="setup" is-config="true" duration-ms="28371" started-at="2021-08-28T18:30:48Z" finished-at="2021-08-28T18:31:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="InvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="InvalidLoginTest" duration-ms="3864" started-at="2021-08-28T18:31:16Z" description="Verify login with invalid credentials" data-provider="getData" finished-at="2021-08-28T18:31:20Z">
+        <test-method status="PASS" signature="InvalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="InvalidLoginTest" duration-ms="7970" started-at="2021-09-15T07:30:53Z" description="Verify login with invalid credentials" data-provider="getData" finished-at="2021-09-15T07:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -47,61 +33,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="teardown" is-config="true" duration-ms="857" started-at="2021-08-28T18:31:20Z" finished-at="2021-08-28T18:31:21Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="teardown" is-config="true" duration-ms="847" started-at="2021-09-15T07:31:01Z" finished-at="2021-09-15T07:31:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="setup" is-config="true" duration-ms="15989" started-at="2021-08-28T18:31:21Z" finished-at="2021-08-28T18:31:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="setup" is-config="true" duration-ms="11634" started-at="2021-09-15T07:31:01Z" finished-at="2021-09-15T07:31:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="InvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="InvalidLoginTest" duration-ms="4070" started-at="2021-08-28T18:31:37Z" description="Verify login with invalid credentials" data-provider="getData" finished-at="2021-08-28T18:31:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anup@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Qwerty#4627]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="LoginTest" duration-ms="10705" started-at="2021-09-15T07:31:13Z" description="Verify Login Test" finished-at="2021-09-15T07:31:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InvalidLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.LoginPageTest@4667ae56]" name="teardown" is-config="true" duration-ms="717" started-at="2021-08-28T18:31:41Z" finished-at="2021-08-28T18:31:42Z">
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.LoginPageTest@39c0f4a]" name="teardown" is-config="true" duration-ms="793" started-at="2021-09-15T07:31:24Z" finished-at="2021-09-15T07:31:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ecomm.tests.LoginPageTest -->
-      <class name="com.ecomm.tests.HomePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="setup" is-config="true" duration-ms="28476" started-at="2021-08-28T18:30:18Z" finished-at="2021-08-28T18:30:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HomePageTitleTest()[pri:1, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="HomePageTitleTest" duration-ms="36" started-at="2021-08-28T18:30:47Z" description="Verify HomePageTitle" finished-at="2021-08-28T18:30:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="teardown" is-config="true" duration-ms="1469" started-at="2021-08-28T18:30:47Z" finished-at="2021-08-28T18:30:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="setup" is-config="true" duration-ms="23343" started-at="2021-08-28T18:31:42Z" finished-at="2021-08-28T18:32:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="OrderHistory()[pri:2, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="OrderHistory" duration-ms="2150" started-at="2021-08-28T18:32:05Z" description="Verify Order History" finished-at="2021-08-28T18:32:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistory -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ecomm.tests.HomePageTests@77cd7a0]" name="teardown" is-config="true" duration-ms="1695" started-at="2021-08-28T18:32:07Z" finished-at="2021-08-28T18:32:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ecomm.tests.HomePageTests -->
-    </test> <!-- E-Commerce Test -->
-  </suite> <!-- E-Commerce_Framework -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
