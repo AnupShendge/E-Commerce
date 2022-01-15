@@ -34,12 +34,15 @@ public class LoginPageTest extends BaseClass {
 
 	@DataProvider
 	public Object[][] getData() {
-		Object[][] data = new Object[2][2];
+		Object[][] data = new Object[3][3];
 		data[0][0] = "shendgeanup@gmail.com";
 		data[0][1] = "$%Qwerty";
 
 		data[1][0] = "anup@gmail.com";
 		data[1][1] = "Qwerty#4627";
+		
+		data[2][0] = "anupii@hotmail.com";
+		data[2][1] = "Qwer347gdj7";
 
 		return data;
 	}
